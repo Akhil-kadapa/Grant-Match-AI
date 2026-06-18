@@ -232,8 +232,7 @@ This project is intended for educational, learning, and portfolio purposes.
 
 **Ahamed Akhil Kadapa**
 
-M.S. Artificial Intelligence 
-University of Bridgeport
+M.S. Artificial Intelligence, University of Bridgeport
 
 Machine Learning • Data Science • Artificial Intelligence • Software Engineering
 
