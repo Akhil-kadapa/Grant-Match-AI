@@ -6,6 +6,14 @@ The application combines semantic search, machine learning embeddings, and gener
 
 ---
 
+# 🎯 GrantMatch AI
+
+## 🚀 Live Demo
+
+🔗 https://grant-match-ai.streamlit.app
+
+GrantMatch AI is an AI-powered grant discovery platform...
+
 ## ✨ Features
 
 ### 🔍 Semantic Grant Matching
