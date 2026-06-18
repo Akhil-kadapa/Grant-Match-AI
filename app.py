@@ -2,6 +2,8 @@ from dotenv import load_dotenv
 import google.generativeai as genai
 import os
 from pypdf import PdfReader
+from create_db import create_database
+from generate_embeddings import generate_embeddings
 import streamlit as st
 import pandas as pd
 import sqlite3
@@ -17,6 +19,10 @@ from sklearn.metrics.pairwise import cosine_similarity
 # -------------------------
 
 load_dotenv()
+
+if not os.path.exists("grants.db"):
+    create_database()
+    generate_embeddings()
 
 # -------------------------
 # Embedding Model
