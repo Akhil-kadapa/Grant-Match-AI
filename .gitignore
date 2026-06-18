@@ -1,0 +1,11 @@
+.venv/
+.env
+__pycache__/
+*.pyc
+
+grants.db
+GrantMatch_Report.pdf
+
+.streamlit/secrets.toml
+
+.vscode/settings.json
