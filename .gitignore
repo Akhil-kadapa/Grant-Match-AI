@@ -1,5 +1,6 @@
 .venv/
 .env
+
 __pycache__/
 *.pyc
 
@@ -14,7 +15,3 @@ app_old.py
 embedding_test.py
 grant_match_test.py
 list_models.py
-GrantMatch_Report.pdf
-
-grants.db
-GrantMatch_Report.pdf
