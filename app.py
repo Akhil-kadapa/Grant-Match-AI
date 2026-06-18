@@ -17,7 +17,6 @@ from sklearn.metrics.pairwise import cosine_similarity
 # -------------------------
 
 load_dotenv()
-print("API Key Loaded:", os.getenv("GOOGLE_API_KEY") is not None)
 
 # -------------------------
 # Embedding Model
