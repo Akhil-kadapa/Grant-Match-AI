@@ -185,19 +185,22 @@ GrantMatch-AI/
 
 ## 📸 Screenshots
 
-### Home Page
+### 🏠 Home Page
 
-*Add screenshot after deployment.*
-
-### Search Results
-
-*Add screenshot after deployment.*
-
-### PDF Report
-
-*Add screenshot after deployment.*
+![Home Page](screenshots/home-page.png)
 
 ---
+
+### 📊 Search Results
+
+![Search Results](screenshots/search-results.png)
+
+---
+
+### 📄 Generated PDF Report
+
+![PDF Report](screenshots/pdf-report.png)
+
 
 ## 🔮 Future Improvements
 
