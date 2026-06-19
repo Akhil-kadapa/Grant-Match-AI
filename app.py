@@ -501,8 +501,14 @@ Explain in 2-3 sentences why this grant is a good match for the mission.
 
 st.title("GrantMatch AI")
 
+st.info(
+        """
+    GrantMatch AI helps nonprofits discover funding opportunities aligned with their mission. Upload a mission document or describe your mission, apply filters, and receive personalized grant recommendations, AI-generated insights, and a downloadable PDF report.
+"""
+)
+
 uploaded_file = st.file_uploader(
-    "Upload Mission PDF",
+    "Upload Mission Document (PDF)",
     type=["pdf"]
 )
 
@@ -522,11 +528,11 @@ if uploaded_file:
 mission = st.text_area(
     "Describe your nonprofit mission",
     value=pdf_text if uploaded_file else"",
-    placeholder="Example: We provide STEM education and mentorship for underserved students."
+    placeholder="Example: We provide STEM education, mentorship, and career development programs for high school students."
 )
 
 st.caption(
-    "📝 Minimum 6 meaningful words. Avoid abbreviations or random characters."
+    "📝 Enter a clear nonprofit mission statement (minimum 6 meaningful words). Avoid abbreviations and random characters."
 )
 
 min_funding = st.number_input(
