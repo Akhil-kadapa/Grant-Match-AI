@@ -95,25 +95,58 @@ Uses precomputed embeddings and cached models to provide efficient grant matchin
 ## 🏗️ System Architecture
 
 ```text
-User Mission Statement / PDF
-            │
-            ▼
-     Text Extraction
-            │
-            ▼
-    Mission Embedding
-            │
-            ▼
-    Semantic Similarity
-            │
-            ▼
-      Grant Ranking
-            │
-            ▼
-    Gemini Explanation
-            │
-            ▼
-     Results & PDF Report
+                    ┌────────────────────────┐
+                    │   User Input           │
+                    │ (PDF / Mission Text)   │
+                    └──────────┬─────────────┘
+                               │
+                               ▼
+                    ┌────────────────────────┐
+                    │ PDF Text Extraction    │
+                    │      (PyPDF)           │
+                    └──────────┬─────────────┘
+                               │
+                               ▼
+                    ┌────────────────────────┐
+                    │ Mission Validation     │
+                    │ (Meaningful Input)     │
+                    └──────────┬─────────────┘
+                               │
+                               ▼
+                    ┌────────────────────────┐
+                    │ Mission Embedding      │
+                    │ (SentenceTransformer)  │
+                    └──────────┬─────────────┘
+                               │
+                               ▼
+                    ┌────────────────────────┐
+                    │ Grant Filtering        │
+                    │ (Funding, Category,    │
+                    │ Organization, etc.)    │
+                    └──────────┬─────────────┘
+                               │
+                               ▼
+                    ┌────────────────────────┐
+                    │ Grant Embeddings       │
+                    │ (Precomputed)          │
+                    └──────────┬─────────────┘
+                               │
+                               ▼
+                    ┌────────────────────────┐
+                    │ Cosine Similarity      │
+                    │ Matching & Ranking     │
+                    └──────────┬─────────────┘
+                               │
+                               ▼
+                    ┌────────────────────────┐
+                    │ Gemini AI Explanation  │
+                    └──────────┬─────────────┘
+                               │
+                               ▼
+                    ┌────────────────────────┐
+                    │ Results Dashboard      │
+                    │ + PDF Report           │
+                    └────────────────────────┘
 ```
 
 ---
@@ -152,22 +185,20 @@ streamlit run app.py
 ## 📁 Project Structure
 
 ```text
-GrantMatch-AI/
+Grant-Match-AI/
 │
-├── app.py
-├── create_db.py
-├── generate_embeddings.py
-├── grants.csv
-├── requirements.txt
-├── README.md
-├── .gitignore
-│
-├── check_db.py
-├── check_tables.py
-│
-└── grants.db
+├── app.py                    # Main Streamlit application
+├── create_db.py              # Creates the SQLite grant database
+├── generate_embeddings.py    # Generates sentence embeddings for grants
+├── grants.csv                # Grant dataset
+├── requirements.txt          # Python dependencies
+├── README.md                 # Project documentation
+├── screenshots/              # Application screenshots
+│   ├── home-page.png
+│   ├── search-results.png
+│   └── pdf-report.png
+└── .gitignore                # Git ignore rules
 ```
-
 ---
 
 ## 📖 How It Works
