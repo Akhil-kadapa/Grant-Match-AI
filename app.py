@@ -8,6 +8,8 @@ import streamlit as st
 import pandas as pd
 import sqlite3
 import json
+import re
+from wordfreq import zipf_frequency
 from reportlab.platypus import SimpleDocTemplate, Paragraph
 from reportlab.lib.styles import getSampleStyleSheet
 
@@ -79,6 +81,47 @@ def load_filters():
         ["All"] + sorted(eligibilities)
     )
 
+# -------------------------
+# Mission Validation
+# -------------------------
+def is_meaningful_mission(mission):
+
+    mission = mission.strip()
+
+    # Minimum length
+    if len(mission) < 30:
+        return False
+
+    # Extract alphabetic words
+    words = re.findall(r"[A-Za-z]+", mission)
+
+    # At least 6 words
+    if len(words) < 6:
+        return False
+
+    # Unique words
+    unique_words = set(word.lower() for word in words)
+
+    if len(unique_words) < 6:
+        return False
+
+    # Average word length
+    avg_length = sum(len(word) for word in words) / len(words)
+
+    if avg_length < 3 or avg_length > 12:
+        return False
+
+    # Alphabetic ratio
+    letters = sum(c.isalpha() for c in mission)
+
+    if letters / max(len(mission), 1) < 0.6:
+        return False
+
+    # Reject repeated characters like aaaaaaa
+    if re.search(r"(.)\1{5,}", mission.lower()):
+        return False
+
+    return True
 # -------------------------
 # Search Grants
 # -------------------------
@@ -478,7 +521,12 @@ if uploaded_file:
 
 mission = st.text_area(
     "Describe your nonprofit mission",
-    value=pdf_text if uploaded_file else ""
+    value=pdf_text if uploaded_file else"",
+    placeholder="Example: We provide STEM education and mentorship for underserved students."
+)
+
+st.caption(
+    "📝 Minimum 6 meaningful words. Avoid abbreviations or random characters."
 )
 
 min_funding = st.number_input(
@@ -526,6 +574,14 @@ if st.button("Find Grants"):
         st.warning(
             "Please enter a mission statement."
         )
+        st.stop()
+
+    if not is_meaningful_mission(mission):
+
+        st.warning(
+            "Please enter a meaningful nonprofit mission statement."
+        )
+
         st.stop()
 
     with st.spinner("🔍 Finding the best matching grants..."):
