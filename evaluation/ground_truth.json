@@ -1,0 +1,368 @@
+{
+    "1": [
+        "STEM Excellence Grant"
+    ],
+    "2": [
+        "STEM Excellence Grant"
+    ],
+    "3": [
+        "STEM Excellence Grant"
+    ],
+    "4": [
+        "STEM Excellence Grant"
+    ],
+    "5": [
+        "STEM Excellence Grant"
+    ],
+
+    "6": [
+        "Digital Learning Initiative"
+    ],
+    "7": [
+        "Digital Learning Initiative"
+    ],
+    "8": [
+        "Digital Learning Initiative"
+    ],
+    "9": [
+        "Digital Learning Initiative"
+    ],
+    "10": [
+        "Digital Learning Initiative"
+    ],
+
+    "11": [
+        "School Innovation Fund"
+    ],
+    "12": [
+        "School Innovation Fund"
+    ],
+    "13": [
+        "School Innovation Fund"
+    ],
+    "14": [
+        "School Innovation Fund"
+    ],
+    "15": [
+        "School Innovation Fund"
+    ],
+
+    "16": [
+        "Literacy Growth Grant"
+    ],
+    "17": [
+        "Literacy Growth Grant"
+    ],
+    "18": [
+        "Literacy Growth Grant"
+    ],
+    "19": [
+        "Literacy Growth Grant"
+    ],
+    "20": [
+        "Literacy Growth Grant"
+    ],
+
+    "21": [
+        "Higher Education Success Grant"
+    ],
+    "22": [
+        "Higher Education Success Grant"
+    ],
+    "23": [
+        "Higher Education Success Grant"
+    ],
+    "24": [
+        "Higher Education Success Grant"
+    ],
+    "25": [
+        "Higher Education Success Grant"
+    ],
+
+    "26": [
+        "AI Innovation Grant",
+        "STEM Excellence Grant"
+    ],
+    "27": [
+        "AI Innovation Grant"
+    ],
+    "28": [
+        "AI Innovation Grant",
+        "STEM Excellence Grant"
+    ],
+    "29": [
+        "AI Innovation Grant",
+        "STEM Excellence Grant",
+        "Tech Access Program"
+    ],
+    "30": [
+        "AI Innovation Grant",
+        "School Innovation Fund"
+    ],
+
+    "31": [
+        "Digital Inclusion Fund",
+        "Tech Access Program"
+    ],
+    "32": [
+        "Digital Inclusion Fund"
+    ],
+    "33": [
+        "Digital Inclusion Fund",
+        "Tech Access Program"
+    ],
+    "34": [
+        "Tech Access Program",
+        "Digital Inclusion Fund"
+    ],
+    "35": [
+        "Digital Inclusion Fund"
+    ],
+
+    "36": [
+        "Healthy Communities Grant"
+    ],
+    "37": [
+        "Healthy Communities Grant",
+        "Preventive Care Initiative"
+    ],
+    "38": [
+        "Healthy Communities Grant"
+    ],
+    "39": [
+        "Preventive Care Initiative",
+        "Healthy Communities Grant"
+    ],
+    "40": [
+        "Healthy Communities Grant",
+        "Mobile Clinic Grant"
+    ],
+
+    "41": [
+        "Mental Wellness Program"
+    ],
+    "42": [
+        "Mental Wellness Program"
+    ],
+    "43": [
+        "Mental Wellness Program",
+        "Healthy Communities Grant"
+    ],
+    "44": [
+        "Mental Wellness Program"
+    ],
+    "45": [
+        "Mental Wellness Program",
+        "Preventive Care Initiative"
+    ],
+
+    "46": [
+        "Mobile Clinic Grant"
+    ],
+    "47": [
+        "Mobile Clinic Grant",
+        "Healthy Communities Grant"
+    ],
+    "48": [
+        "Mobile Clinic Grant"
+    ],
+    "49": [
+        "Mobile Clinic Grant",
+        "Medical Equipment Fund"
+    ],
+    "50": [
+        "Mobile Clinic Grant",
+        "Healthy Communities Grant"
+    ],
+
+    "51": [
+        "Medical Equipment Fund"
+    ],
+    "52": [
+        "Medical Equipment Fund",
+        "Mobile Clinic Grant"
+    ],
+    "53": [
+        "Medical Equipment Fund",
+        "Healthy Communities Grant"
+    ],
+    "54": [
+        "Medical Equipment Fund"
+    ],
+    "55": [
+        "Medical Equipment Fund"
+    ],
+
+    "56": [
+        "Preventive Care Initiative"
+    ],
+    "57": [
+        "Preventive Care Initiative",
+        "Healthy Communities Grant"
+    ],
+    "58": [
+        "Preventive Care Initiative",
+        "Healthy Communities Grant"
+    ],
+    "59": [
+        "Preventive Care Initiative"
+    ],
+    "60": [
+        "Preventive Care Initiative"
+    ],
+
+    "61": [
+        "Clean Rivers Initiative"
+    ],
+    "62": [
+        "Clean Rivers Initiative"
+    ],
+    "63": [
+        "Clean Rivers Initiative",
+        "Climate Action Fund"
+    ],
+    "64": [
+        "Clean Rivers Initiative"
+    ],
+    "65": [
+        "Clean Rivers Initiative",
+        "Climate Action Fund"
+    ],
+
+    "66": [
+        "Urban Forest Grant"
+    ],
+    "67": [
+        "Urban Forest Grant"
+    ],
+    "68": [
+        "Urban Forest Grant",
+        "Climate Action Fund"
+    ],
+    "69": [
+        "Urban Forest Grant",
+        "Smart Community Grant"
+    ],
+    "70": [
+        "Urban Forest Grant"
+    ],
+
+    "71": [
+        "Climate Action Fund"
+    ],
+    "72": [
+        "Climate Action Fund"
+    ],
+    "73": [
+        "Climate Action Fund",
+        "Renewable Energy Grant"
+    ],
+    "74": [
+        "Climate Action Fund",
+        "Clean Rivers Initiative"
+    ],
+    "75": [
+        "Climate Action Fund"
+    ],
+
+    "76": [
+        "Renewable Energy Grant"
+    ],
+    "77": [
+        "Renewable Energy Grant",
+        "Climate Action Fund"
+    ],
+    "78": [
+        "Renewable Energy Grant"
+    ],
+    "79": [
+        "Renewable Energy Grant",
+        "Climate Action Fund"
+    ],
+    "80": [
+        "Renewable Energy Grant"
+    ],
+
+    "81": [
+        "Disaster Recovery Fund"
+    ],
+    "82": [
+        "Disaster Recovery Fund"
+    ],
+    "83": [
+        "Disaster Recovery Fund",
+        "Smart Community Grant"
+    ],
+    "84": [
+        "Disaster Recovery Fund"
+    ],
+    "85": [
+        "Disaster Recovery Fund"
+    ],
+
+    "86": [
+        "Smart Community Grant"
+    ],
+    "87": [
+        "Smart Community Grant",
+        "AI Innovation Grant"
+    ],
+    "88": [
+        "Smart Community Grant"
+    ],
+    "89": [
+        "Smart Community Grant",
+        "Digital Inclusion Fund"
+    ],
+    "90": [
+        "Smart Community Grant"
+    ],
+
+    "91": [
+        "Digital Learning Initiative",
+        "Tech Access Program",
+        "School Innovation Fund"
+    ],
+    "92": [
+        "Medical Equipment Fund",
+        "Healthy Communities Grant"
+    ],
+    "93": [
+        "Climate Action Fund",
+        "Renewable Energy Grant",
+        "Clean Rivers Initiative"
+    ],
+    "94": [
+        "Digital Learning Initiative",
+        "Digital Inclusion Fund",
+        "Tech Access Program"
+    ],
+    "95": [
+        "Climate Action Fund",
+        "Disaster Recovery Fund"
+    ],
+    "96": [
+        "Mental Wellness Program",
+        "Healthy Communities Grant"
+    ],
+    "97": [
+        "STEM Excellence Grant",
+        "AI Innovation Grant",
+        "Tech Access Program"
+    ],
+    "98": [
+        "Clean Rivers Initiative",
+        "Climate Action Fund",
+        "Renewable Energy Grant"
+    ],
+    "99": [
+        "Disaster Recovery Fund",
+        "Mobile Clinic Grant",
+        "Healthy Communities Grant"
+    ],
+    "100": [
+        "Smart Community Grant",
+        "Climate Action Fund",
+        "Renewable Energy Grant"
+    ]
+}

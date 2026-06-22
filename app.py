@@ -573,6 +573,10 @@ sort_by = st.selectbox(
 # Find Grants
 # -------------------------
 
+# -------------------------
+# Find Grants
+# -------------------------
+
 if st.button("Find Grants"):
 
     if not mission:
@@ -616,7 +620,13 @@ if st.button("Find Grants"):
             sort_by
         )
 
-        display_results(
-            results,
-            mission
-        )
+        st.session_state["results"] = results
+        st.session_state["mission"] = mission
+
+
+if "results" in st.session_state:
+
+    display_results(
+        st.session_state["results"],
+        st.session_state["mission"]
+    )

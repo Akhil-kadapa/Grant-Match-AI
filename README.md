@@ -2,17 +2,15 @@
 
 GrantMatch AI is an AI-powered grant discovery platform that helps nonprofits identify funding opportunities that best align with their mission.
 
-The application combines semantic search, machine learning embeddings, and generative AI to rank grants based on relevance and provide human-readable explanations for why a grant is a strong match.
+The application leverages semantic search, sentence embeddings, and generative AI to retrieve relevant grant opportunities, rank them by semantic similarity, and generate human-readable explanations for funding recommendations.
 
 ---
-
-# 🎯 GrantMatch AI
 
 ## 🚀 Live Demo
 
 🔗 https://grant-match-ai.streamlit.app
 
-GrantMatch AI is an AI-powered grant discovery platform...
+---
 
 ## ✨ Features
 
@@ -59,6 +57,39 @@ Generate downloadable PDF reports containing:
 
 Uses precomputed embeddings and cached models to provide efficient grant matching.
 
+## 📊 Retrieval Evaluation
+
+Grant Match AI includes a custom retrieval evaluation framework for benchmarking semantic search performance using standard Information Retrieval (IR) metrics.
+
+### Evaluation Framework
+
+- 100 human-curated benchmark queries
+- Human-annotated ground truth
+- Standard retrieval metrics:
+  - Hit Rate
+  - Precision@5
+  - Recall@5
+  - Mean Reciprocal Rank (MRR)
+  - Average Retrieval Latency
+- Automatic generation of:
+  - JSON reports
+  - CSV reports
+  - Markdown reports
+  - Performance charts
+
+### Evaluation Results
+
+| Metric                     |    Result |
+| -------------------------- | --------: |
+| Benchmark Queries          |   **100** |
+| Hit Rate                   |   **98%** |
+| Precision@5                | **28.8%** |
+| Recall@5                   |   **97%** |
+| Mean Reciprocal Rank (MRR) | **0.894** |
+| Average Retrieval Latency  | **54 ms** |
+
+The evaluation framework provides a repeatable benchmark for measuring retrieval quality and tracking future improvements to the semantic search pipeline.
+
 ---
 
 ## 🛠️ Tech Stack
@@ -89,6 +120,11 @@ Uses precomputed embeddings and cached models to provide efficient grant matchin
 
 * PyPDF
 * ReportLab
+
+### Evaluation
+
+* Custom Benchmarking
+* Matplotlib
 
 ---
 
@@ -156,7 +192,7 @@ Uses precomputed embeddings and cached models to provide efficient grant matchin
 ### Clone the Repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/GrantMatch-AI.git
+git clone https://github.com/Akhil-kadapa/Grant-Match-AI.git
 cd GrantMatch-AI
 ```
 
@@ -187,17 +223,29 @@ streamlit run app.py
 ```text
 Grant-Match-AI/
 │
-├── app.py                    # Main Streamlit application
-├── create_db.py              # Creates the SQLite grant database
-├── generate_embeddings.py    # Generates sentence embeddings for grants
-├── grants.csv                # Grant dataset
-├── requirements.txt          # Python dependencies
-├── README.md                 # Project documentation
-├── screenshots/              # Application screenshots
+├── app.py                      # Main Streamlit application
+├── create_db.py                # Creates the SQLite grant database
+├── generate_embeddings.py      # Generates sentence embeddings
+├── grants.csv                  # Grant dataset
+├── grants.db                   # SQLite database
+│
+├── evaluation/                 # Retrieval evaluation framework
+│   ├── scripts/
+│   ├── benchmark.py
+│   ├── evaluator.py
+│   ├── metrics.py
+│   ├── reporter.py
+│   ├── charts.py
+│   └── results/
+│
+├── screenshots/                # Application screenshots
 │   ├── home-page.png
 │   ├── search-results.png
 │   └── pdf-report.png
-└── .gitignore                # Git ignore rules
+│
+├── requirements.txt            # Python dependencies
+├── README.md                   # Project documentation
+└── .gitignore                  # Git ignore rules
 ```
 ---
 
@@ -235,14 +283,14 @@ Grant-Match-AI/
 
 ## 🔮 Future Improvements
 
-* Multi-grant AI comparison
-* AI-powered grant proposal drafting
-* User authentication
+* Real-time grant ingestion pipeline
 * Cloud database integration
+* User authentication
 * Saved searches and bookmarks
 * Grant deadline tracking
+* AI-powered grant proposal drafting
+* Multi-grant AI comparison
 * Analytics dashboard
-* Real-time grant ingestion pipeline
 
 ---
 
@@ -276,7 +324,7 @@ This project is intended for educational, learning, and portfolio purposes.
 
 M.S. Artificial Intelligence, University of Bridgeport
 
-Machine Learning • Data Science • Artificial Intelligence • Software Engineering
+Machine Learning | Artificial Intelligence | AI Engineering
 
 
 Built using Python, Streamlit, Sentence Transformers, SQLite, and Google Gemini.

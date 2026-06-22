@@ -1,0 +1,402 @@
+[
+    {
+        "id": 1,
+        "query": "Supports STEM education for underserved students."
+    },
+    {
+        "id": 2,
+        "query": "Funds robotics and STEM labs in schools."
+    },
+    {
+        "id": 3,
+        "query": "Provides science education grants for K-12."
+    },
+    {
+        "id": 4,
+        "query": "Encourages engineering education programs."
+    },
+    {
+        "id": 5,
+        "query": "Supports STEM curriculum development."
+    },
+    {
+        "id": 6,
+        "query": "Funds digital classrooms and e-learning resources."
+    },
+    {
+        "id": 7,
+        "query": "Supports online education initiatives."
+    },
+    {
+        "id": 8,
+        "query": "Grants for classroom technology upgrades."
+    },
+    {
+        "id": 9,
+        "query": "Funds educational software implementation."
+    },
+    {
+        "id": 10,
+        "query": "Improves digital learning infrastructure."
+    },
+    {
+        "id": 11,
+        "query": "Supports innovative school programs."
+    },
+    {
+        "id": 12,
+        "query": "Grants for school modernization."
+    },
+    {
+        "id": 13,
+        "query": "Funds classroom improvement projects."
+    },
+    {
+        "id": 14,
+        "query": "Supports educational innovation."
+    },
+    {
+        "id": 15,
+        "query": "Improves school facilities and programs."
+    },
+    {
+        "id": 16,
+        "query": "Literacy programs for elementary students."
+    },
+    {
+        "id": 17,
+        "query": "Reading improvement initiatives."
+    },
+    {
+        "id": 18,
+        "query": "Grants for literacy education."
+    },
+    {
+        "id": 19,
+        "query": "Supports reading intervention programs."
+    },
+    {
+        "id": 20,
+        "query": "Funds language learning initiatives."
+    },
+    {
+        "id": 21,
+        "query": "Supports higher education institutions."
+    },
+    {
+        "id": 22,
+        "query": "University student success programs."
+    },
+    {
+        "id": 23,
+        "query": "College academic support initiatives."
+    },
+    {
+        "id": 24,
+        "query": "Grants for higher education improvement."
+    },
+    {
+        "id": 25,
+        "query": "Postsecondary education funding."
+    },
+    {
+        "id": 26,
+        "query": "Supports AI education in schools."
+    },
+    {
+        "id": 27,
+        "query": "Funds artificial intelligence research for education."
+    },
+    {
+        "id": 28,
+        "query": "Grants for machine learning education."
+    },
+    {
+        "id": 29,
+        "query": "Supports coding and AI learning initiatives."
+    },
+    {
+        "id": 30,
+        "query": "Provides funding for AI innovation in education."
+    },
+    {
+        "id": 31,
+        "query": "Supports digital inclusion in underserved communities."
+    },
+    {
+        "id": 32,
+        "query": "Funds internet accessibility projects."
+    },
+    {
+        "id": 33,
+        "query": "Grants for expanding broadband access."
+    },
+    {
+        "id": 34,
+        "query": "Supports technology access for rural communities."
+    },
+    {
+        "id": 35,
+        "query": "Improves digital equity."
+    },
+    {
+        "id": 36,
+        "query": "Supports healthy communities."
+    },
+    {
+        "id": 37,
+        "query": "Funds community health initiatives."
+    },
+    {
+        "id": 38,
+        "query": "Grants for public health improvement."
+    },
+    {
+        "id": 39,
+        "query": "Supports preventive healthcare services."
+    },
+    {
+        "id": 40,
+        "query": "Healthcare access for underserved populations."
+    },
+    {
+        "id": 41,
+        "query": "Supports mental health awareness programs."
+    },
+    {
+        "id": 42,
+        "query": "Funds mental wellness services."
+    },
+    {
+        "id": 43,
+        "query": "Mental health support initiatives."
+    },
+    {
+        "id": 44,
+        "query": "Grants for counseling programs."
+    },
+    {
+        "id": 45,
+        "query": "Behavioral health improvement funding."
+    },
+    {
+        "id": 46,
+        "query": "Supports mobile healthcare clinics."
+    },
+    {
+        "id": 47,
+        "query": "Funds rural medical outreach."
+    },
+    {
+        "id": 48,
+        "query": "Healthcare delivery through mobile clinics."
+    },
+    {
+        "id": 49,
+        "query": "Medical services for remote communities."
+    },
+    {
+        "id": 50,
+        "query": "Expands access to community healthcare."
+    },
+    {
+        "id": 51,
+        "query": "Funds medical equipment for hospitals."
+    },
+    {
+        "id": 52,
+        "query": "Medical devices for community clinics."
+    },
+    {
+        "id": 53,
+        "query": "Supports healthcare equipment purchases."
+    },
+    {
+        "id": 54,
+        "query": "Hospital equipment modernization."
+    },
+    {
+        "id": 55,
+        "query": "Healthcare technology infrastructure."
+    },
+    {
+        "id": 56,
+        "query": "Supports preventive healthcare."
+    },
+    {
+        "id": 57,
+        "query": "Disease prevention programs."
+    },
+    {
+        "id": 58,
+        "query": "Community wellness initiatives."
+    },
+    {
+        "id": 59,
+        "query": "Health screening programs."
+    },
+    {
+        "id": 60,
+        "query": "Preventive care funding."
+    },
+    {
+        "id": 61,
+        "query": "Supports clean river restoration."
+    },
+    {
+        "id": 62,
+        "query": "Water quality improvement projects."
+    },
+    {
+        "id": 63,
+        "query": "River conservation initiatives."
+    },
+    {
+        "id": 64,
+        "query": "Watershed restoration funding."
+    },
+    {
+        "id": 65,
+        "query": "Freshwater ecosystem protection."
+    },
+    {
+        "id": 66,
+        "query": "Supports urban tree planting."
+    },
+    {
+        "id": 67,
+        "query": "Urban forest conservation."
+    },
+    {
+        "id": 68,
+        "query": "Community tree planting programs."
+    },
+    {
+        "id": 69,
+        "query": "Green city initiatives."
+    },
+    {
+        "id": 70,
+        "query": "Urban canopy expansion."
+    },
+    {
+        "id": 71,
+        "query": "Supports climate resilience."
+    },
+    {
+        "id": 72,
+        "query": "Climate adaptation projects."
+    },
+    {
+        "id": 73,
+        "query": "Carbon reduction initiatives."
+    },
+    {
+        "id": 74,
+        "query": "Environmental sustainability grants."
+    },
+    {
+        "id": 75,
+        "query": "Climate action funding."
+    },
+    {
+        "id": 76,
+        "query": "Supports renewable energy projects."
+    },
+    {
+        "id": 77,
+        "query": "Solar energy installation grants."
+    },
+    {
+        "id": 78,
+        "query": "Wind energy development funding."
+    },
+    {
+        "id": 79,
+        "query": "Clean energy transition initiatives."
+    },
+    {
+        "id": 80,
+        "query": "Renewable power infrastructure."
+    },
+    {
+        "id": 81,
+        "query": "Disaster recovery assistance for communities."
+    },
+    {
+        "id": 82,
+        "query": "Emergency response and recovery funding."
+    },
+    {
+        "id": 83,
+        "query": "Natural disaster rebuilding projects."
+    },
+    {
+        "id": 84,
+        "query": "Community disaster preparedness."
+    },
+    {
+        "id": 85,
+        "query": "Emergency resilience grants."
+    },
+    {
+        "id": 86,
+        "query": "Supports smart city initiatives."
+    },
+    {
+        "id": 87,
+        "query": "Technology-driven community development."
+    },
+    {
+        "id": 88,
+        "query": "Smart infrastructure projects."
+    },
+    {
+        "id": 89,
+        "query": "Digital transformation for cities."
+    },
+    {
+        "id": 90,
+        "query": "Funding for smart city and connected community projects."
+    },
+    {
+        "id": 91,
+        "query": "Technology and education improvement."
+    },
+    {
+        "id": 92,
+        "query": "Healthcare technology innovation."
+    },
+    {
+        "id": 93,
+        "query": "Environmental sustainability and renewable energy."
+    },
+    {
+        "id": 94,
+        "query": "Digital access for schools."
+    },
+    {
+        "id": 95,
+        "query": "Climate-resilient communities."
+    },
+    {
+        "id": 96,
+        "query": "Mental health services in schools."
+    },
+    {
+        "id": 97,
+        "query": "STEM education with AI learning."
+    },
+    {
+        "id": 98,
+        "query": "Water conservation and climate action."
+    },
+    {
+        "id": 99,
+        "query": "Emergency healthcare response."
+    },
+    {
+        "id": 100,
+        "query": "Smart sustainable cities."
+    }
+]
