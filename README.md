@@ -318,6 +318,20 @@ This project is intended for educational, learning, and portfolio purposes.
 
 ---
 
+---
+
+# 📚 Documentation
+
+This repository includes additional documentation to help both developers and non-technical users.
+
+| Document | Description |
+|----------|-------------|
+| **README.md** | Project overview, installation, architecture, and features |
+| **USER_GUIDE.md** | Step-by-step guide for nonprofit staff and end users |
+
+For detailed instructions on using the application, see **USER_GUIDE.md**(USER_GUIDE.MD)
+
+
 ## 👨‍💻 Author
 
 **Ahamed Akhil Kadapa**
