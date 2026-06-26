@@ -223,29 +223,22 @@ streamlit run app.py
 ```text
 Grant-Match-AI/
 │
-├── app.py                      # Main Streamlit application
-├── create_db.py                # Creates the SQLite grant database
-├── generate_embeddings.py      # Generates sentence embeddings
-├── grants.csv                  # Grant dataset
-├── grants.db                   # SQLite database
+├── app.py                     # Main Streamlit application
+├── create_db.py               # Creates the SQLite grant database
+├── generate_embeddings.py     # Generates sentence embeddings
+├── grants.csv                 # Grant dataset
+├── grants.db                  # SQLite database
+├── requirements.txt           # Python dependencies
+├── README.md                  # Project overview and setup guide
+├── USER_GUIDE.md              # End-user documentation
+├── TECHNICAL_GUIDE.md         # Technical architecture and maintenance
+├── .gitignore                 # Git ignore rules
+├── .env.example               # Example environment variables (optional)
 │
-├── evaluation/                 # Retrieval evaluation framework
-│   ├── scripts/
-│   ├── benchmark.py
-│   ├── evaluator.py
-│   ├── metrics.py
-│   ├── reporter.py
-│   ├── charts.py
-│   └── results/
-│
-├── screenshots/                # Application screenshots
-│   ├── home-page.png
-│   ├── search-results.png
-│   └── pdf-report.png
-│
-├── requirements.txt            # Python dependencies
-├── README.md                   # Project documentation
-└── .gitignore                  # Git ignore rules
+└── screenshots/
+    ├── home-page.png
+    ├── search-results.png
+    └── pdf-report.png
 ```
 ---
 
@@ -318,18 +311,9 @@ This project is intended for educational, learning, and portfolio purposes.
 
 ---
 
----
+## 📚 Documentation
 
-# 📚 Documentation
-
-This repository includes additional documentation to help both developers and non-technical users.
-
-| Document | Description |
-|----------|-------------|
-| **README.md** | Project overview, installation, architecture, and features |
-| **USER_GUIDE.md** | Step-by-step guide for nonprofit staff and end users |
-
-For detailed instructions on using the application, see **[📘 USER_GUIDE.md](USER_GUIDE.md)**.
+This repository includes documentation for both end users and developers.
 
 | Document | Description |
 |----------|-------------|
@@ -337,10 +321,11 @@ For detailed instructions on using the application, see **[📘 USER_GUIDE.md](U
 | **USER_GUIDE.md** | Step-by-step guide for nonprofit staff and end users |
 | **TECHNICAL_GUIDE.md** | Technical architecture, AI workflow, deployment, and maintenance guide |
 
-👉 **New to GrantMatch AI?** Read the **[User Guide](USER_GUIDE.md)**.
+👉 New to GrantMatch AI? Start with the **[User Guide](USER_GUIDE.md)**.
 
-Developers can refer to the **[Technical Guide](TECHNICAL_GUIDE.md)** for architecture and maintenance details.
+👨‍💻 Developers can refer to the **[Technical Guide](TECHNICAL_GUIDE.md)** for implementation details and maintenance.
 
+---
 
 ## 👨‍💻 Author
 
