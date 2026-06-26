@@ -329,7 +329,17 @@ This repository includes additional documentation to help both developers and no
 | **README.md** | Project overview, installation, architecture, and features |
 | **USER_GUIDE.md** | Step-by-step guide for nonprofit staff and end users |
 
-For detailed instructions on using the application, see **USER_GUIDE.md**(USER_GUIDE.MD)
+For detailed instructions on using the application, see **[📘 USER_GUIDE.md](USER_GUIDE.md)**.
+
+| Document | Description |
+|----------|-------------|
+| **README.md** | Project overview, installation, architecture, and features |
+| **USER_GUIDE.md** | Step-by-step guide for nonprofit staff and end users |
+| **TECHNICAL_GUIDE.md** | Technical architecture, AI workflow, deployment, and maintenance guide |
+
+👉 **New to GrantMatch AI?** Read the **[User Guide](USER_GUIDE.md)**.
+
+Developers can refer to the **[Technical Guide](TECHNICAL_GUIDE.md)** for architecture and maintenance details.
 
 
 ## 👨‍💻 Author
