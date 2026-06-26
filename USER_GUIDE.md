@@ -1,6 +1,6 @@
 # 📘 GrantMatch AI User Guide
 
-## Welcome
+## 👋 Welcome
 
 Welcome to **GrantMatch AI**.
 
@@ -10,7 +10,7 @@ No technical or AI experience is required to use this application.
 
 ---
 
-# Who Is This For?
+# 🎯 Who Is This For?
 
 GrantMatch AI is designed for:
 
@@ -52,7 +52,7 @@ The home page contains:
 
 ---
 
-# Option 1 — Upload a Mission Statement PDF
+# 📄 Option 1 — Upload a Mission Statement PDF
 
 If your organization already has a mission statement saved as a PDF:
 
@@ -66,7 +66,7 @@ No copying or pasting is required.
 
 ---
 
-# Option 2 — Enter a Mission Statement Manually
+# ✍️ Option 2 — Enter a Mission Statement Manually
 
 If you do not have a PDF, type or paste your mission directly into the text box.
 
@@ -82,7 +82,7 @@ Example:
 
 ---
 
-# Mission Statement Guidelines
+# 📝 Mission Statement Guidelines
 
 For the best recommendations:
 
@@ -98,7 +98,7 @@ The application requires a meaningful mission statement containing at least six 
 
 ---
 
-# Applying Filters
+# 🎛️ Applying Filters
 
 You can narrow your search using optional filters.
 
@@ -133,7 +133,7 @@ If you are unsure, leave these filters unchanged.
 
 ---
 
-# Finding Grants
+# 🔍 Finding Grants
 
 After entering your mission:
 
@@ -151,7 +151,7 @@ This process usually takes only a few seconds.
 
 ---
 
-# Understanding Your Results
+# 📊 Understanding Your Results
 
 Each recommendation includes:
 
@@ -187,7 +187,7 @@ A summary of the funding opportunity.
 
 ---
 
-# Downloading Your Report
+# 📥 Downloading Your Report
 
 Click **Download PDF Report**.
 
@@ -203,7 +203,7 @@ The PDF can be shared with colleagues or used during grant planning meetings.
 
 ---
 
-# Common Issues
+# ⚠️ Common Issues
 
 ## My PDF uploads but nothing happens.
 
@@ -239,7 +239,7 @@ Try:
 
 ---
 
-# Best Practices
+# 💡Best Practices
 
 For the highest-quality recommendations:
 
@@ -250,7 +250,7 @@ For the highest-quality recommendations:
 
 ---
 
-# Frequently Asked Questions
+# ❓Frequently Asked Questions
 
 ### Does the application automatically apply for grants?
 
@@ -280,7 +280,7 @@ Recommendations are based on how closely the meaning of your mission aligns with
 
 ---
 
-# Need Assistance?
+# 🛠️ Need Assistance?
 
 If you encounter unexpected behavior:
 
@@ -293,7 +293,7 @@ If the issue persists, contact the project maintainer through the GitHub reposit
 
 ---
 
-# About GrantMatch AI
+# 🤖 About GrantMatch AI
 
 GrantMatch AI combines modern Natural Language Processing (NLP) techniques with Large Language Models to help nonprofit organizations discover relevant funding opportunities more efficiently.
 
